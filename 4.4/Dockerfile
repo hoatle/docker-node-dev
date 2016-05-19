@@ -63,4 +63,4 @@ RUN gem install compass
 ENV NPM_VERSION=3.9.0 GRUNT_VERSION=1.2.0 YEOMAN_VERSION=1.8.1 BOWER_VERSION=1.7.9 GULP_VERSION=3.9.1
 
 RUN npm cache clean && npm install -g npm@$NPM_VERSION
-RUN npm install -g grunt-cli@$GRUNT_VERSION yo@$YEOMAN_VERSION bower@$BOWER_VERSION gulp-cli@GULP_VERSION
+RUN npm install -g grunt-cli@$GRUNT_VERSION yo@$YEOMAN_VERSION bower@$BOWER_VERSION gulp-cli@$GULP_VERSION
