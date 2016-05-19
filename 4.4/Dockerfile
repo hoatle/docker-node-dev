@@ -2,8 +2,6 @@ FROM node:4.4.4
 
 MAINTAINER Hoat Le <hoatle@teracy.com>
 
-ENV REFRESHED_AT 2016-05-18-01
-
 # from https://github.com/docker-library/ruby/blob/72ff2d4380a136197e3f9e0c719933d7cf3161d0/2.3/Dockerfile
 # skip installing gem documentation
 RUN mkdir -p /usr/local/etc \
